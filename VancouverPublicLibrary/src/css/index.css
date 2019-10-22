@@ -1,0 +1,37 @@
+ p.difinition {
+     text-align: center;
+     color: black;
+     font-style: oblique;
+     font-size: 50px;
+ }
+ 
+ #mid-head p {
+     text-align: center;
+     color: red;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 10vw;
+     font-style: italic
+ }
+ 
+ h4 p {
+     text-align: right;
+     color: darkolivegreen;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: normal;
+     font-size: xx-large;
+ }
+ 
+ #property p {
+     text-align: center;
+     color: blue;
+     font-family: 'Courier New', Courier, monospace;
+     font-style: oblique;
+     font-size: 2vw;
+ }
+ 
+ #id-card {
+     border: 2px;
+     border-block-color: blue;
+     height: 10px;
+     width: 10px;
+ }
