@@ -3,7 +3,7 @@
      color: white;
      font-style: oblique;
      font-size: 50px;
-     background-color: black;
+     background-image: url("../img/pic.jpg");
  }
  
  #mid-head p {
@@ -28,10 +28,6 @@
      font-family: 'Courier New', Courier, monospace;
      font-style: oblique;
      font-size: 2vw;
- }
- 
- body {
-     background-image: image("src/img/pic.jpg");
  }
  
  .id-card {
