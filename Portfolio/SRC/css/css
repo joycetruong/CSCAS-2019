@@ -1,0 +1,6 @@
+head
+( text-colour: White)
+
+body {
+  background-color: lightblue;
+}
