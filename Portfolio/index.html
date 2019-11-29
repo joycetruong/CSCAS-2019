@@ -2,20 +2,44 @@
 <head>
 <style>
 h1   {color: ff0000;
-        }
+      text-align:center;
+      font-size: 70px;
+      font-family: Bookman;}
 p    {color: white;
       font-size: 27px;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+text
+      {color: f0ff0f;
+      font-size: 27px;}
+
+
 </style>
-    <body background="src/img/01_SPoW_072719.jpg">
     <title> Our website hahaha </title>
     <h1> An alien named Aalyan Arif and a giraffe named Sara Roman</h1>
+    <audio id="myAudio">
+        <source src="SRC/js/Sound Effect.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="playAudio()" type="button"> Play Sound </button>
+    <script>
+        var x = document.getElementById("myAudio")
+        function playAudio(){
+            x.play();
+        }
+    </script>
+
 </head>
-<body>
-<p> This is the story of an alien!</p>
+<body background="src/img/01_SPoW_072719.jpg">
+
+<text><center><marquee width="300" scrollamount="300" scrolldelay="500">This is the story of an alien!</marquee></center></text>
 <img alt="image" src="src/img/Chihuahua-On-White-03.jpg">
-<p><a href="file:///Users/aalyanarif/Desktop/Portfolio/website2.html" style="color:ff0000">Aalyan Arif</a> is a new species that hails from the planet called 'Bruh' He is efficient, and has a strange eating habit. He survives primarily on Indomie, which has continuously baffled scientists across the globe.</p>
+<p><a href="file:///Users/aalyanarif/Documents/GitHub/CSCAS-2019/Portfolio/website2.html" style="color:ff0000">Aalyan Arif</a> is a new species that hails from the planet called 'Bruh'. He is efficient, and has a strange eating habit. He survives primarily on Indomie, which has continuously baffled scientists across the globe.</p>
 <p> His striking resemblance to what we call a 'Chihuahua' makes us wonder if there were always Aalyans amongst us!</p>
 
 <p> Up next on our list of strange beings is one that crash landed in Europe</p>
 <img alt="image" src="src/img/920x920.jpg">
-<p> Say hi to <a href="file:///Users/aalyanarif/Desktop/Portfolio/website2.html" style="color:ffff00">Sara</a>!</p>
+<center><p>Say hi to <a href="file:///Users/aalyanarif/Documents/GitHub/CSCAS-2019/Portfolio/website2.html" style="color:ffff00">Sara</a>!</p></center>
+</body>
