@@ -6,13 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="src/css/index.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <p id="property">today i learned about font property of css and how to maintain all the attributes in css coool!</p>
-    <img class="id-card" src="src/img/Scan 5.jpeg">
 
+    <div>
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#history" aria-controls="History" role="tab" data-toggle="tab">History</a></li>
+            <li role="presentation"><a href="#philosophy" aria-controls="Philosophy" role="tab" data-toggle="tab">Philosophy</a></li>
+            <li role="presentation"><a href="#computerscience" aria-controls="ComputerScience" role="tab" data-toggle="tab">Computer Science</a></li>
+            <li role="presentation"><a href="#physcis" aria-controls="Physics" role="tab" data-toggle="tab">Physics</a></li>
+            <li role="presentation"><a href="#chemistry" aria-controls="Chemistry" role="tab" data-toggle="tab">Chemistry</a></li>
+            <li role="presentation"><a href="#biology" aria-controls="Biology" role="tab" data-toggle="tab">Biology</a></li>
+            <li role="presentation"><a href="#marinescience" aria-controls="MarineScience" role="tab" data-toggle="tab">Marine Science</a></li>
+            <li role="presentation"><a href="#visualarts" aria-controls="VisualArts" role="tab" data-toggle="tab">Visual Arts</a></li>
+            <li role="presentation"><a href="#theatre" aria-controls="theatre" role="tab" data-toggle="tab">theatre</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="home">Welcome to Vancouver public library. This library is availabe to every race and ehinicity. Here is no discrimination based on case, language and cultuere. If someone is found doing so then he/she will be punished very badly. we won't ask your
+                personal information and you bank account.<br> This library is made availabel here only because of <b>MR.Lakp Finju Sherpa</b>, who provide emotional and mental support to thi company.<br> we hope you will have a great time in Vancouber
+                public library.
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="history">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="philosophy">..dsdsdsdsdd.</div>
+            <div role="tabpanel" class="tab-pane fade" id="computerscience">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="physics">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="chemistry">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="biology">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="marinescience">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="visualarts">...</div>
+            <div role="tabpanel" class="tab-pane fade" id="theatre">...</div>
+
+        </div>
+
+    </div>
+    <script>
+        $("history").click(function(e) {
+            e.preventDefault;
+            $(this).tab('show')
+        });
+    </script>
 
 </body>
 
