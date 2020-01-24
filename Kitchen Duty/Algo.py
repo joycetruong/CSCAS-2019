@@ -1,3 +1,4 @@
+import array
 #japan house room 8 boys
 std1 = ['Lakpa','1st Year','Nepal','true']
 std2 = ['Danik','2nd Year','Canada','true']
