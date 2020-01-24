@@ -40,7 +40,7 @@ Breakfast = []
 int a
 for(a:Houses):
     gender = true #for boys
-    RoomNo = 8 #have to index
+    RoomNo = 8 #have to index or we can put all the room no and put it in loop such that if status of one room members is false then it will move till it find next
     #here we will be taking from table of room 8
     def switch_room(RoomNo):
             return a[0]+RoomNo
@@ -58,6 +58,8 @@ for(a:Houses):
             Breakfast.append(student1)
             temp[3] = 'false'
     gender = false
+    RoomNo = RoomNo+1
+
 
 
 
