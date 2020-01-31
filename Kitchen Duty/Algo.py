@@ -8,8 +8,8 @@ data = []
 break_fast = []
 for a in houses:
     HouseName = a
-    floor = true #for 1st
-    if(floor==true):
+    floor = True #for 1st
+    if(floor==True):
         floor_name = "1st"
         room_name = 1
     else:
@@ -32,7 +32,7 @@ for a in houses:
             temp[3] = 'false'
     else:
        
-    floor = false
+    floor = False
     room_name = room_name+1
 
 
